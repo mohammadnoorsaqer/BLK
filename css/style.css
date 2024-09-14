@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #956435;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    opacity: 0.8;
+}
+nav .left-links
+,
+nav .right-links 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .left-links .links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.landing
+{
+    background: url(/images/coffee-background\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+nav .left-links li a 
+,
+nav .right-links li a 
+{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+nav .left-links li a:hover
+,
+nav .right-links li a:hover
+{
+   color: #61492e;
+}
+nav .logo img
+{
+    height: 120px;
+    padding: 10px;
+}
+nav .right-links .links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+section
+{
+    margin-top: 2rem;
+}
+
+section .center-section h3
+{
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+
+}

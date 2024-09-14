@@ -1,0 +1,9 @@
+body
+{
+    background: url(/images/BLKMENU.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+}
